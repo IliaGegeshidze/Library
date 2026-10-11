@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "გიორგი ბერიძე",
+      "email": "giorgi.beridze@gmail.com",
+      "registrationDate": "1/9/2026"
+    },
+    {
+      "id": "2",
+      "name": "ნინო კვარაცხელია",
+      "email": "nino.kvaratskhelia@gmail.com",
+      "registrationDate": "3/9/2026"
+    },
+    {
+      "id": "3",
+      "name": "დავით მაისურაძე",
+      "email": "davit.maisuradze@gmail.com",
+      "registrationDate": "5/9/2026"
+    },
+    {
+      "id": "4",
+      "name": "მარიამ ჯავახიშვილი",
+      "email": "mariam.javakhishvili@gmail.com",
+      "registrationDate": "8/9/2026"
+    },
+    {
+      "id": "5",
+      "name": "ლევან გელაშვილი",
+      "email": "levan.gelashvili@gmail.com",
+      "registrationDate": "10/9/2026"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "კაცია-ადამიანი?!",
+      "author": "ილია ჭავჭავაძე",
+      "status": "available"
+    },
+    {
+      "id": "2",
+      "title": "განდეგილი",
+      "author": "ილია ჭავჭავაძე",
+      "status": "available"
+    },
+    {
+      "id": "3",
+      "title": "გველისმჭამელი",
+      "author": "ვაჟა-ფშაველა",
+      "status": "available"
+    },
+    {
+      "id": "4",
+      "title": "ალუდა ქეთელაური",
+      "author": "ვაჟა-ფშაველა",
+      "status": "borrowed"
+    },
+    {
+      "id": "5",
+      "title": "თორნიკე ერისთავი",
+      "author": "აკაკი წერეთელი",
+      "status": "available"
+    }
+  ],
+  "borrowings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "bookId": "2",
+      "borrowDate": "1/10/2026",
+      "returnDate": "9/10/2026"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "bookId": "4",
+      "borrowDate": "5/10/2026",
+      "returnDate": null
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "bookId": "1",
+      "borrowDate": "20/9/2026",
+      "returnDate": "30/9/2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
